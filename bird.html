@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chanse Summers Bird Hunt</title>
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -23,61 +22,177 @@
 
     <p id="help">Help report</p>
 
+    <button onclick="help()">Click for help</button>
+
 
 
 
 <div class="container mt-4">
 
     <div class="row">
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
+
+        <div class="col"><img id="i0" src="bush.png" class="img-fluid" onclick="check(0)"></div>
+        <div class="col"><img id="i1" src="bush.png" class="img-fluid" onclick="check(1)"></div>
+        <div class="col"><img id="i2" src="bush.png" class="img-fluid" onclick="check(2)"></div>
+        <div class="col"><img id="i3" src="bush.png" class="img-fluid" onclick="check(3)"></div>
+        <div class="col"><img id="i4" src="bush.png" class="img-fluid" onclick="check(4)"></div>
+        <div class="col"><img id="i5" src="bush.png" class="img-fluid" onclick="check(5)"></div>
+        <div class="col"><img id="i6" src="bush.png" class="img-fluid" onclick="check(6)"></div>
+
     </div>
 
     <div class="row">
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
+        <div class="col"><img id="i7" src="bush.png" class="img-fluid" onclick="check(7)"></div>
+        <div class="col"><img id="i8" src="bush.png" class="img-fluid" onclick="check(8)"></div>
+        <div class="col"><img id="i9" src="bush.png" class="img-fluid" onclick="check(9)"></div>
+        <div class="col"><img id="i10" src="bush.png" class="img-fluid" onclick="check(10)"></div>
+        <div class="col"><img id="i11" src="bush.png" class="img-fluid" onclick="check(11)"></div>
+        <div class="col"><img id="i12" src="bush.png" class="img-fluid" onclick="check(12)"></div>
+        <div class="col"><img id="i13" src="bush.png" class="img-fluid" onclick="check(13)"></div>
     </div>
 
     <div class="row">
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
+        <div class="col"><img id="i14" src="bush.png" class="img-fluid" onclick="check(14)"></div>
+        <div class="col"><img id="i15" src="bush.png" class="img-fluid" onclick="check(15)"></div>
+        <div class="col"><img id="i16" src="bush.png" class="img-fluid" onclick="check(16)"></div>
+        <div class="col"><img id="i17" src="bush.png" class="img-fluid" onclick="check(17)"></div>
+        <div class="col"><img id="i18" src="bush.png" class="img-fluid" onclick="check(18)"></div>
+        <div class="col"><img id="i19" src="bush.png" class="img-fluid" onclick="check(19)"></div>
+        <div class="col"><img id="i20" src="bush.png" class="img-fluid" onclick="check(20)"></div>
     </div>
 
     <div class="row">
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
+        <div class="col"><img id="i21" src="bush.png" class="img-fluid" onclick="check(21)"></div>
+        <div class="col"><img id="i22" src="bush.png" class="img-fluid" onclick="check(22)"></div>
+        <div class="col"><img id="i23" src="bush.png" class="img-fluid" onclick="check(23)"></div>
+        <div class="col"><img id="i24" src="bush.png" class="img-fluid" onclick="check(24)"></div>
+        <div class="col"><img id="i25" src="bush.png" class="img-fluid" onclick="check(25)"></div>
+        <div class="col"><img id="i26" src="bush.png" class="img-fluid" onclick="check(26)"></div>
+        <div class="col"><img id="i27" src="bush.png" class="img-fluid" onclick="check(27)"></div>
     </div>
 
     <div class="row">
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
-        <div class="col"><img src="bush.png" class="img-fluid"></div>
+        <div class="col"><img id="i28" src="bush.png" class="img-fluid" onclick="check(28)"></div>
+        <div class="col"><img id="i29" src="bush.png" class="img-fluid" onclick="check(29)"></div>
+        <div class="col"><img id="i30" src="bush.png" class="img-fluid" onclick="check(30)"></div>
+        <div class="col"><img id="i31" src="bush.png" class="img-fluid" onclick="check(31)"></div>
+        <div class="col"><img id="i32" src="bush.png" class="img-fluid" onclick="check(32)"></div>
+        <div class="col"><img id="i33" src="bush.png" class="img-fluid" onclick="check(33)"></div>
+        <div class="col"><img id="i34" src="bush.png" class="img-fluid" onclick="check(34)"></div>
     </div>
 
 </div>
+
+<script>
+
+let ids = [
+"i0","i1","i2","i3","i4","i5","i6",
+"i7","i8","i9","i10","i11","i12","i13",
+"i14","i15","i16","i17","i18","i19","i20",
+"i21","i22","i23","i24","i25","i26","i27",
+"i28","i29","i30","i31","i32","i33","i34"
+];
+
+let score = 0;
+let locationsVisited = 0;
+let lastLocation = 0;
+
+let statueLocation = 19;
+let toucanLocation = 14;
+
+let lorikeetLocations = [3,25];
+let buntingLocations = [2,5,11,20,21];
+
+let gameOver = false;
+
+function check(position) {
+    if (gameOver) {
+        return;
+    }
+
+    let id = ids[position];
+    let image = document.getElementById(id);
+
+    if (position === statueLocation) {
+        image.src = "statue.png";
+        image.onclick = null;
+        score = score - 3;
+        gameOver = true;
+    }
+    else if (position === toucanLocation) {
+        image.src = "Toucan.png";
+        image.onclick = null;
+        score = score + 5;
+    }
+    else if (lorikeetLocations.includes(position)) {
+        image.src = "lorikeet.png";
+        image.onclick = null;
+        score = score + 3;
+    }
+    else if (buntingLocations.includes(position)) {
+        image.src = "bunting.png";
+        image.onclick = null;
+        score = score + 1;
+    }
+
+    locationsVisited = locationsVisited + 1;
+
+    document.getElementById("locations").innerHTML = "Number of locations visited is " + locationsVisited + ".";
+
+    document.getElementById("score").innerHTML = "Score is " + score + ".";
+
+    lastLocation = position;
+}
+
+function help() {
+    let result = "silence";
+
+    let neighbors4 = [
+        (lastLocation - 1 + 35) % 35,
+        (lastLocation + 1) % 35,
+        (lastLocation - 7 + 35) % 35,
+        (lastLocation + 7) % 35
+    ];
+
+    if (buntingLocations.includes(neighbors4[0]) ||
+        buntingLocations.includes(neighbors4[1]) ||
+        buntingLocations.includes(neighbors4[2]) ||
+        buntingLocations.includes(neighbors4[3])) {
+        result = "cheep";
+    }
+    else {
+        let row = Math.floor(lastLocation / 7);
+        let col = lastLocation % 7;
+
+        for (let r = row - 1; r <= row + 1; r++) {
+            for (let c = col - 1; c <= col + 1; c++) {
+                if (r >= 0 && r < 5 && c >= 0 && c < 7) {
+                    let pos = r * 7 + c;
+                    if (pos === toucanLocation) {
+                        result = "caw";
+                    }
+                }
+            }
+        }
+
+        if (result === "silence") {
+            for (let r = row - 1; r <= row + 1; r++) {
+                for (let c = col - 1; c <= col + 1; c++) {
+                    if (r >= 0 && r < 5 && c >= 0 && c < 7) {
+                        let pos = r * 7 + c;
+                        if (pos === statueLocation) {
+                            result = "thrrum";
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    document.getElementById("help").innerHTML = result;
+}
+
+</script>
+
 </body>
 </html>
